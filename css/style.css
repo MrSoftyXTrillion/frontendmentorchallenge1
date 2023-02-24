@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+.container {
+    margin: auto;
+}
+.box {
+   width: 749.04px;
+   height: 500px;
+   background-color: rgb(230, 221, 221);
+   margin-top: 80px;
+   margin-bottom: 70px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   border-radius: 10px 10px 10px 10px;
+   box-shadow: rgb(87, 83, 83) 4px 8px 30px;
+}
+
+.perfume {
+    font-family: 'Work Sans', sans-serif;
+    color: black;
+    letter-spacing: 8px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    position: relative;
+    display: flex;
+}
+.heading {
+    font-family: 'Gloock', serif;
+    color: black;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    position: relative;
+    display: flex;
+    width: 230px;
+}
+.descripo {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(53, 52, 52);
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    position: relative;
+    display: flex;
+    width: 240px;
+    line-height: 26px;
+}
+.price {
+    font-family: 'Gloock', serif;
+    color: rgb(5, 99, 5);
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    position: relative;
+    display: flex;
+
+}
+.price .privprice {
+    font-family: cursive;
+    color: rgb(147, 150, 147);
+    font-size: 18px;
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    position: relative;
+    display: flex;
+}
+button {
+    width: 270px;
+    height: 50px;
+    background-color: rgb(5, 99, 5);
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    border-radius:10px;
+    font-size: 18px;
+    border: none;
+    box-shadow:rgb(0, 0, 0) 3px 4px 5px;
+    transition: 0.3s;
+}
+button:hover {
+    margin-top: 28px;
+    margin-left: 44px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
